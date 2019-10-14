@@ -1,0 +1,15 @@
+
+  .Title {
+    border: 3px solid #000;
+    width: 52px;
+    background: #f2e7c8;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    text-orientation: sideways;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  
+  
