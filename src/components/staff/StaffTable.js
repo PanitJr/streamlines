@@ -79,8 +79,8 @@ class StaffTable extends React.Component {
                   <li key={contact.id}>{contact.type.name}: {contact.number}</li>))}
                 </ul>
               </Table.Cell>
-              <Table.Cell>{item.startDate}</Table.Cell>
-              <Table.Cell>{item.birthDate}</Table.Cell>
+              <Table.Cell>{item.startDate.join("-")}</Table.Cell>
+              <Table.Cell>{item.birthDate.join("-")}</Table.Cell>
             </Table.Row>
             ))}
           </Table.Body>

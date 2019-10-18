@@ -43,13 +43,13 @@ export default class NevBarMenu extends Component {
           onClick={this.handleItemClick}
         />
         <Menu.Item
-        as={ Link } to='/report'
+        as={ Link } to='/report/kpi'
           name='Report'
           active={activeItem === 'Report'}
           onClick={this.handleItemClick}
         />
         <Menu.Item
-        as={ Link } to='/staff'
+        as={ Link } to='/staff/list'
           name='Staff'
           active={activeItem === 'Staff'}
           onClick={this.handleItemClick}

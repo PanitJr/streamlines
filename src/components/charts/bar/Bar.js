@@ -1,7 +1,7 @@
 import React from 'react'
 import { ResponsiveBar } from '@nivo/bar'
 import { generateCountriesData } from '@nivo/generators'
-import { colors } from '../../constants/commonConstants'
+import { colors } from '../../../constants/commonConstants'
 import { Grid } from 'semantic-ui-react'
 import './Bar.css';
 

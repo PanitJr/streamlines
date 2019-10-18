@@ -7,9 +7,9 @@ import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 import App from './components/app/App';
 import Notfound from './components/Notfound';
-import Bar from './components/charts/Bar';
 import NevBarMenu from './components/menu/NevBarMenu';
 import Staff from './components/staff/Staff';
+import Reports from './components/reports/Reports';
 
 const routing = (
     <Router>
@@ -23,8 +23,8 @@ const routing = (
           </Divider>
         <Switch>
           <Route exact path="/" component={App} />
-          <Route path="/bar" component={Bar} />
           <Route path="/staff" component={Staff} />
+          <Route path="/report" component={Reports} />
           <Route component={Notfound} />
         </Switch>
       </div>

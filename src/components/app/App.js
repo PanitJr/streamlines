@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
-import StaffTable from '../staff/StaffTable'
+import Bar from '../charts/bar/Bar';
+import Line from '../charts/line/line';
 
 const App = () => (
   <div>
       <div className="App">
-          <StaffTable />
+          <Bar />
+          <Line/>
       </div>
   </div>
 )
