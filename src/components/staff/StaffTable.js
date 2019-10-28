@@ -28,6 +28,56 @@ class StaffTable extends React.Component {
           (error) => {
             this.setState({
               isLoaded: true,
+              items: [
+                {
+                    "createdAt": 1570899600000,
+                    "updatedAt": 1570899600000,
+                    "updatedBy": "1234567890",
+                    "id": "1234567890",
+                    "firstName": "พณิช",
+                    "lastName": "ใจเจริญ",
+                    "nickname": "NIT",
+                    "firstNameEn": "PANIT",
+                    "lastNameEn": "JAIJAROEN",
+                    "title": {
+                        "nameTitleId": 1,
+                        "name": "นาย"
+                    },
+                    "username": "root",
+                    "role": {
+                        "id": 1,
+                        "name": "MANAGER"
+                    },
+                    "startDate": [
+                        1994,
+                        6,
+                        17
+                    ],
+                    "registerDate": [
+                        1994,
+                        6,
+                        17
+                    ],
+                    "birthDate": [
+                        1994,
+                        6,
+                        17
+                    ],
+                    "photo": null,
+                    "level": {
+                        "id": 1,
+                        "name": "level-1"
+                    },
+                    "status": {
+                        "id": 1,
+                        "name": "NEW"
+                    },
+                    "division": "A",
+                    "password": null,
+                    "addresses": [],
+                    "contacts": []
+                }
+            ],
               error
             });
           }
